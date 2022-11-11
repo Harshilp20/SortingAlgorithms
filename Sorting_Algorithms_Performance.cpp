@@ -1,7 +1,6 @@
 //
 //Name: Harshil Patel
-//Course: Data Structures CS2028C - 002
-//Lab Assignment 4
+//Sorting Algorithm Performance Testing
 //
 
 #include <cstdlib>
@@ -421,7 +420,7 @@ int main() {
     }
     
     
-    //Begin time tests for each sorting algorithm
+    //Time tests for each sorting algorithm
     auto tradix1 = Clock::now();
 
     RadixSort(RadixArray,randSize);
