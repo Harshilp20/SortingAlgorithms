@@ -1,7 +1,5 @@
 //
 //Name: Harshil Patel
-//Course: Data Structures CS2028C - 002
-//Lab Assignment 4
 //
 
 #include <cstdlib>
@@ -381,6 +379,7 @@ string ArrayToString(int* array, int arraySize) {
 }
 
 
+//Run and output performance test values
 void RunPerformanceTest(int randArray[], int randSize, int &totalInsertion, int &totalRadix, int &totalHeap, int &totalQuick, int &totalBubble, int &totalCounting, int &totalMerge){
     //Copy array for accurate data
     //This is to make sure we don't sort an already sorted array
